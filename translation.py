@@ -1,8 +1,8 @@
 class Translation(object):
     
-    START_TXT = """ <b> Hi {} ,
+    START_TXT = """ <b> Hello {} ! ,
  I'm A Simple Rename Bot With Permanent Thumbnail And Custom Caption support!</b>
-<b>Click help button to know more about me !</b>\n 
+<b>Click Below Menu Button To Use Me</b>\n 
 """
     PROGRESS_BAR = """\n
 ╭───[**🔅Progress Bar🔅**]───⍟
@@ -17,20 +17,21 @@ class Translation(object):
 ╰─────────────────⍟"""
     HELP_TXT = """
 <b><i><u>✨ AVAILABLE COMMANDS:</u> 
-➢ /rename - To rename a file or video or audio
+➢ /rename - To rename file , video or audio
 ➢ /settings - To configure your configs 
 ➢ /addcaption - To add a custom caption
 ➢ /showcaption - To show your custom caption
-➢ /deletethumb - To remove your custom thumbnail 
-➢ /showthumb - To show your custom thumbnail
-<u>🔥 FEATURES:</u>
+➢ /deletethumb - To remove your thumbnail 
+➢ /showthumb - To show your thumbnail
+
+<u>🙇‍♂️ BOT FEATURES:</u>
 ➻ support custom caption
 ➻ support custom thumbnail 
 ➻ Available three upload mode  
 ➻ support broadcast</i></b>
 """ 
     OWNER_COMMANDS_TXT = """
-<b><i><u>👨 OWNER COMMANDS:</u>
+<b><i><u>👨‍💻 ADMIN COMMANDS:</u>
 
 • Following commands only can use bot owner.
 
