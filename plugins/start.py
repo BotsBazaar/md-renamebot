@@ -78,8 +78,8 @@ async def cb_handler(client: Client , query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
                  [[
-                 InlineKeyboardButton('👨🏻 Owner commands', callback_data="owner_cmd"),
-                 InlineKeyboardButton('💬 About', callback_data="about")
+                 InlineKeyboardButton('👨‍💻 Admin Commands', callback_data="owner_cmd"),
+                 InlineKeyboardButton('🗨 About', callback_data="about")
                  ],[
                  InlineKeyboardButton('back', callback_data="start")
             ]]
@@ -89,7 +89,7 @@ async def cb_handler(client: Client , query: CallbackQuery):
         await query.message.edit_text(
             text=Translation.OWNER_COMMANDS_TXT,
             reply_markup=InlineKeyboardMarkup(
-               [[InlineKeyboardButton('Back', callback_data="help")]]
+               [[InlineKeyboardButton('◀️ Back', callback_data="help")]]
         ))
      
     elif data == "about":
@@ -99,9 +99,9 @@ async def cb_handler(client: Client , query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
             [[
-              InlineKeyboardButton('📃 Source code', url='https://github.com/Greymattersbot/md-renamebot')
+              InlineKeyboardButton('💰 Buy Bot', url='https://t.me/Armyheroes')
             ],[
-              InlineKeyboardButton('Back', callback_data = "help"),
+              InlineKeyboardButton('◀️ Back', callback_data = "help"),
             ]]
         ))
      
@@ -140,7 +140,7 @@ async def cb_handler(client: Client , query: CallbackQuery):
                 InlineKeyboardButton('👀 Show Caption', callback_data="show_caption"),
                 InlineKeyboardButton("🗑️ Delete Caption", callback_data="delete_caption")
               ],[
-                InlineKeyboardButton('Back', callback_data="settings")
+                InlineKeyboardButton('◀️ Back', callback_data="settings")
               ]]
         ))
              
@@ -165,7 +165,7 @@ async def cb_handler(client: Client , query: CallbackQuery):
                 InlineKeyboardButton('👀 Show Thumbnail', callback_data="show_thumb"),
                 InlineKeyboardButton("🗑️ Delete Thumbnail", callback_data="delete_thumb")
                 ],[
-                InlineKeyboardButton('Back', callback_data="settings")
+                InlineKeyboardButton('◀️ Back', callback_data="settings")
                ]]
         ))
         
