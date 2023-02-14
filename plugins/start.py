@@ -18,10 +18,10 @@ async def start(bot, message):
              [[
                InlineKeyboardButton("♦️ Help", callback_data = "help")
              ],[
-               InlineKeyboardButton('📢 Update Channel', url='https://t.me/GreyMatter_Bots'),
-               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/GreyMatters_Bots_Discussion')
+               InlineKeyboardButton('♀️ Update Channel', url='https://t.me/BotsBazaar'),
+               InlineKeyboardButton('🎦 Network', url='https://t.me/Stars_-Zone')
              ],[
-                InlineKeyboardButton('📃 Source code', url='https://github.com/Greymattersbot/md-renamebot')
+                InlineKeyboardButton('💰 Buy Bot', url='https://t.me/Develo_io')
              ]]
    ))
                             
@@ -34,7 +34,7 @@ async def settings(bot, message):
       ],[
       InlineKeyboardButton('🖼️ Custom Thumbnail', callback_data="custom_thumbnail")
       ],[
-      InlineKeyboardButton(f'📤 Upload mode', callback_data="toggle_mode"),
+      InlineKeyboardButton(f'📤 Upload Mode', callback_data="toggle_mode"),
       InlineKeyboardButton(upload_mode, callback_data="toggle_mode")
       ],[
       InlineKeyboardButton('⛔ Close', callback_data="close")
@@ -63,12 +63,12 @@ async def cb_handler(client: Client , query: CallbackQuery):
             text=Translation.START_TXT.format(query.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
              [[
-               InlineKeyboardButton("♦️ Help", callback_data = "help")
+               InlineKeyboardButton("☎️ Help", callback_data = "help")
              ],[
-               InlineKeyboardButton('📢 Update Channel', url='https://t.me/GreyMatter_Bots'),
-               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/GreyMatters_Bots_Discussion')
+               InlineKeyboardButton('♀️ Update Channel', url='https://t.me/BotsBazaar'),
+               InlineKeyboardButton('🚻 Suppot Group', url='https://t.me/BotsBazaarDiscussion')
              ],[
-                InlineKeyboardButton('📃 Source code', url='https://github.com/Greymattersbot/md-renamebot')
+                InlineKeyboardButton('🛃 Admin', url='https://t.me/Armyheroes)
              ]]
         ))
         
